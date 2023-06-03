@@ -1,0 +1,106 @@
+#navbar-pinterest{
+    top: 10px;
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+
+.card-image:hover{
+    border: 5px solid black;
+    filter: brightness(50%);
+    
+    
+}
+
+.card-image {   
+    max-width: 100%;
+    border-radius: 10px;
+    align-items: center;
+    cursor: zoom-in;
+    
+}
+
+#content {
+    columns: 5 220px;
+}
+
+.Botones {
+    flex-direction: row-reverse;
+    justify-content: right;
+    position: absolute;
+}
+
+.finder {
+    width: 800px;
+    border-radius: 100px;
+    border: none;
+    background-color:darkgray
+}
+
+.buscador {
+        display: flex;
+        height: auto;
+        border: 1.5px solid gray;
+        border-radius: 24px;
+        background-color:darkgray;
+
+}
+.lupa{
+    width: 20px;
+    height: 20px;
+}
+    
+
+#icons{
+    position:absolute;
+    display: contents;
+    cursor: pointer;
+}
+#notifications{
+    opacity: 0.5;
+    
+    
+}
+
+#message{
+    opacity: 0.5;
+}
+.INICIO{
+    border-radius: 100px;
+    width: 50px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    
+    }
+.Guardar{
+    border-radius: 100px;
+    width: 70px;
+    height: 35px;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    margin: 10px;
+}
+.Compartir{
+    cursor: pointer;
+    background-color: darkgray;
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
+}
+.Tres-Puntos{
+    cursor: pointer;
+    background-color: darkgray;
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
+}
+
+
+
+
+
